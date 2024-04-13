@@ -1,7 +1,11 @@
 class Human:
-    def __init__(self):
-        self.height = 175
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"Hello, my name is {self.name}. I am {self.age} years old"
 
 
-denis = Human()
-print(denis.height)
+den = Human("Denis", 30)
+print(den)
