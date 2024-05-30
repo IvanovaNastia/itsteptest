@@ -1,7 +1,6 @@
 import torch
 import cv2
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
